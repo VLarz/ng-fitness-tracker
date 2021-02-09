@@ -1,0 +1,21 @@
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.navigation-items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#icon {
+  line-height: 0.65;
+}
+
+mat-toolbar {
+  margin-bottom: 80px;
+}
+/*# sourceMappingURL=header.component.css.map */
