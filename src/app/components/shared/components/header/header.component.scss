@@ -11,6 +11,10 @@ a {
   padding: 0;
 }
 
-// #icon {
-//   line-height: 1.5;
-// }
+#icon {
+  line-height: 0.65;
+}
+
+mat-toolbar {
+  margin-bottom: 80px;
+}
