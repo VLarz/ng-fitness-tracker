@@ -1,4 +1,4 @@
-<section>
+<section class="sign-up">
   <form fxLayout="column" fxLayoutAlign="center center" fxLayoutGap="10px" #signUpForm="ngForm" (ngSubmit)="onSubmit(signUpForm)">
     <mat-form-field>
       <input
@@ -38,6 +38,6 @@
       <mat-datepicker #picker></mat-datepicker>
     </mat-form-field>
     <mat-checkbox ngModel name="agree" required color="primary">Agree to Terms and Conditions.</mat-checkbox>
-    <button mat-raised-button type="submit" color="primary" [disabled]="signUpForm.invalid">Submit</button>
+    <button mat-flat-button type="submit" color="primary" [disabled]="signUpForm.invalid">Submit</button>
   </form>
 </section>
