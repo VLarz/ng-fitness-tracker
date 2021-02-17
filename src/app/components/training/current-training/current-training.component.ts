@@ -17,6 +17,10 @@ export class CurrentTrainingComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
+    this.startOrResumeTimer();
+  }
+
+  startOrResumeTimer(): void {
     this.timer = setInterval(() => {
       this.progress = this.progress + 20;
       if (this.progress >= 100) {
@@ -36,6 +40,8 @@ export class CurrentTrainingComponent implements OnInit {
     DIALOG_REF.afterClosed().subscribe(result => {
       if (result) {
         this.trainingExit.emit();
+      } else {
+        this.startOrResumeTimer();
       }
     });
   }
