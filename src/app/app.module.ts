@@ -41,6 +41,7 @@ import { DialogStopTrainingComponent } from './components/training/current-train
     FormsModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [DialogStopTrainingComponent]
 })
 export class AppModule { }

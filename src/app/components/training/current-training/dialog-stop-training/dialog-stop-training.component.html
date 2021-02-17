@@ -1,1 +1,5 @@
-<p>dialog-stop-training works!</p>
+<h1 mat-dialog-title>Are you sure want to stop?</h1>
+<mat-dialog-actions>
+  <button mat-flat-button color="primary" [mat-dialog-close]="true">Yes</button>
+  <button mat-flat-button color="warn" [mat-dialog-close]="false">No</button>
+</mat-dialog-actions>
