@@ -16,6 +16,7 @@ import { TrainingComponent } from './components/training/training.component';
 import { WelcomeComponent } from './components/welcome/welcome.component';
 import { HeaderComponent } from './components/shared/components/header/header.component';
 import { SidenavListComponent } from './components/shared/components/sidenav-list/sidenav.component';
+import { DialogStopTrainingComponent } from './components/training/current-training/dialog-stop-training/dialog-stop-training.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { SidenavListComponent } from './components/shared/components/sidenav-lis
     PastTrainingComponent,
     WelcomeComponent,
     HeaderComponent,
-    SidenavListComponent
+    SidenavListComponent,
+    DialogStopTrainingComponent
   ],
   imports: [
     BrowserModule,
