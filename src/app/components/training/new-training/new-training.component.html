@@ -5,8 +5,8 @@
       <mat-form-field fxLayoutAlign="center">
         <mat-label>Favorite food</mat-label>
         <mat-select>
-          <mat-option *ngFor="let training of trainings" [value]="training.id">
-            {{ training.value }}
+          <mat-option *ngFor="let exercise of exercises" [value]="exercise.id">
+            {{ exercise.name }}
           </mat-option>
         </mat-select>
       </mat-form-field>
